@@ -1,0 +1,19 @@
+﻿@model  StudentListViewModel
+@{
+    ViewData["Title"] = "Student";
+}
+
+<h2>Students</h2>
+
+@if (Model.AccessLevel < 2)
+{
+<p>"You do not have access"</p>
+}
+else if (Model.AccessLevel < 8)
+{
+    @await Html.PartialAsync("../Views/Student/_accesslevel2plus");        
+}
+else
+{
+    @await Html.PartialAsync("../Views/Student/_accesslevel8plus"); 
+}

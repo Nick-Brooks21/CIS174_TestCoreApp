@@ -64,3 +64,6 @@ C:\Users\ntbro\OneDrive\Desktop\Advanced C#\Assignment_5_1_StarterCode\CIS174_Te
 C:\Users\ntbro\OneDrive\Desktop\Advanced C#\Assignment_5_1_StarterCode\CIS174_TestCoreApp\bin\Debug\netcoreapp2.1\CIS174_TestCoreApp.Views.pdb
 C:\Users\ntbro\OneDrive\Desktop\Advanced C#\Assignment_5_1_StarterCode\CIS174_TestCoreApp\obj\Debug\netcoreapp2.1\CIS174_TestCoreApp.Views.pdb
 C:\Users\ntbro\OneDrive\Desktop\Advanced C#\Assignment_5_1_StarterCode\CIS174_TestCoreApp\obj\Debug\netcoreapp2.1\CIS174_TestCoreApp.csproj.CopyComplete
+C:\Users\ntbro\OneDrive\Desktop\Advanced C#\Assignment_5_1_StarterCode\CIS174_TestCoreApp\obj\Debug\netcoreapp2.1\Razor\Views\Student\Index.g.cshtml.cs
+C:\Users\ntbro\OneDrive\Desktop\Advanced C#\Assignment_5_1_StarterCode\CIS174_TestCoreApp\obj\Debug\netcoreapp2.1\Razor\Views\Student\_accesslevel2plus.g.cshtml.cs
+C:\Users\ntbro\OneDrive\Desktop\Advanced C#\Assignment_5_1_StarterCode\CIS174_TestCoreApp\obj\Debug\netcoreapp2.1\Razor\Views\Student\_accesslevel8plus.g.cshtml.cs
