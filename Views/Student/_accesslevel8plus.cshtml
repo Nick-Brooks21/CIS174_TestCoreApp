@@ -3,10 +3,10 @@
 *@
 @model List<StudentViewModel>
 
-@foreach (var s in Model)
-{
     <div>Hello Admin!</div>
-    <div>@s.FirstName</div>
-    <div>@s.LastName</div>
-    <div>@s.Grade</div>
+
+@foreach (var s in Model)
+{   
+    <div>Student: @s.FirstName @s.LastName</div>
+    <div>Grade: @s.Grade</div>
 }

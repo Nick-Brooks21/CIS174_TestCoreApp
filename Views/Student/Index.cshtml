@@ -2,6 +2,7 @@
 @{
     ViewData["Title"] = "Student";
 }
+@ViewBag.AccessLevel
 
 <h2>Students</h2>
 
@@ -11,9 +12,9 @@
 }
 else if (Model.AccessLevel < 8)
 {
-    @await Html.PartialAsync("../Views/Student/_accesslevel2plus");        
+    @await Html.PartialAsync("_accesslevel2plus", Model.Students);        
 }
 else
 {
-    @await Html.PartialAsync("../Views/Student/_accesslevel8plus"); 
+    @await Html.PartialAsync("_accesslevel8plus", Model.Students); 
 }

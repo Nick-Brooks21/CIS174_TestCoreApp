@@ -57,6 +57,7 @@ namespace CIS174_TestCoreApp
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
+
             });
         }
     }

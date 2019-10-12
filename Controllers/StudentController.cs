@@ -11,8 +11,9 @@ namespace CIS174_TestCoreApp.Controllers
     public class StudentController : Controller
     {
 
-        public ActionResult Index()
+        public ActionResult Index(int AccessLevel)
         {
+            ViewBag.AccessLevel = AccessLevel;
             var studentList = new StudentListViewModel();
 #pragma warning disable IDE0017 // Simplify object initialization
             var student = new StudentViewModel();
@@ -38,6 +39,8 @@ namespace CIS174_TestCoreApp.Controllers
             studentList.Students.Add(student);
             studentList.Students.Add(student2);
             studentList.Students.Add(student1);
+
+            studentList.AccessLevel = AccessLevel;
             return View(studentList);
         }
 

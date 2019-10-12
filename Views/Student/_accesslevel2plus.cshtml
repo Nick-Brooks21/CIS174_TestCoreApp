@@ -1,11 +1,10 @@
-﻿
-@*
+﻿@*
     For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
 *@
 @model List<StudentViewModel>
 
 @foreach(var s in Model)
 {
-    <div>@s.FirstName</div>
-    <div>@s.LastName</div>
+    <div>Student: @s.FirstName @s.LastName</div>
+   
 }
