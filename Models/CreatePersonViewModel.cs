@@ -19,7 +19,7 @@ namespace CIS174_TestCoreApp.Models
         public string LastName { get; set; }
 
         [Required]
-        [Range(1, 120, ErrorMessage = "Age range between (1-120)")]
+        [Range(1, 120, ErrorMessage = "Age range between {1-120}")]
         public int Age { get; set; }
 
         [Range(typeof(DateTime), "1/1/1900", "12/31/2018", ErrorMessage = "Date range between 1/1/1900 - 12/31/2018")]
@@ -36,7 +36,7 @@ namespace CIS174_TestCoreApp.Models
         public string ConfirmEmail { get; set; }
 
         [Url]
-        [MinLength(7, ErrorMessage = "Minimum length is 7")]
+        [MinLength(7, ErrorMessage = "Minimum length is {7}")]
         public string Website { get; set; }
 
         [Editable(false)]
